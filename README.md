@@ -68,4 +68,4 @@ Ao executar com sucesso todas as células do notebook, você terá as seguintes 
 
 ## Gráficos
 
-![image](assets/grafico.png)
+![image](grafico.png)
