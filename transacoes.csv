@@ -1,0 +1,101 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-03-27,CLI003,debito,482.34,Condomínio,conta
+2,2026-01-14,CLI009,debito,548.58,Conta de luz,conta
+3,2026-02-22,CLI006,credito,2025.65,Transferência Pix,transferencia
+4,2026-02-11,CLI009,debito,208.23,Streaming de vídeo,assinatura
+5,2026-01-26,CLI008,credito,6532.36,Pagamento de folha,salario
+6,2026-01-10,CLI012,debito,368.85,Eletrônicos,compra
+7,2026-01-21,CLI001,credito,2152.84,Transferência entre contas,transferencia
+8,2026-02-26,CLI009,debito,331.16,Restaurante,compra
+9,2026-03-03,CLI012,debito,656.71,Assinatura de revista,assinatura
+10,2026-02-24,CLI015,debito,555.57,Livraria,compra
+abc,2026-01-15,CLI001,debito,150.00,Erro de ID,compra
+11,2026-04-10,CLI014,debito,29.92,Loja de roupas,compra
+12,2026-02-18,CLI001,credito,6546.18,Adiantamento salarial,salario
+13,2026-04-17,CLI015,debito,697.80,Farmácia,compra
+14,2026-01-11,CLI009,debito,1719.37,TED recebida,transferencia
+15,2026-02-12,CLI015,credito,15590.08,Transferência de alto valor,transferencia
+16,2026-01-01,CLI001,credito,8998.03,Salário mensal,salario
+17,2026-02-04,CLI008,credito,3665.65,Adiantamento salarial,salario
+18,2026-03-13,CLI008,credito,1934.56,Transferência Pix,transferencia
+19,2026-04-15,CLI008,credito,10882.41,Bônus semestral,salario
+20,2026-02-20,CLI008,debito,742.78,Loja de roupas,compra
+21,2026-03-06,CLI001,debito,624.52,Streaming de música,assinatura
+22,2026-04-09,CLI004,debito,723.75,Assinatura de revista,assinatura
+23,2026-03-10,CLI006,credito,7975.63,Adiantamento salarial,salario
+24,2026-03-03,CLI006,debito,592.08,Gás residencial,conta
+25,2026-03-12,CLI015,debito,752.96,Serviço em nuvem,assinatura
+,2026-01-18,CLI002,credito,500.00,ID Ausente,transferencia
+91,2026-02-05,,debito,220.00,Sem identificador de cliente,conta
+26,2026-03-13,CLI011,debito,190.78,Conta de água,conta
+27,2026-04-13,CLI005,credito,11619.14,Pagamento de folha,salario
+28,2026-04-20,CLI012,credito,5147.11,Adiantamento salarial,salario
+29,2026-03-13,CLI012,debito,2840.10,Transferência Pix,transferencia
+30,2026-02-02,CLI007,debito,1684.44,Pagamento de fornecedor,transferencia
+31,2026-01-14,CLI001,debito,679.03,Loja de roupas,compra
+32,2026-04-05,CLI012,debito,42.90,Conta de luz,conta
+33,2026-01-14,CLI010,debito,109.79,Pagamento de fornecedor,transferencia
+34,2026-03-14,CLI008,debito,370.85,Gás residencial,conta
+35,2026-03-23,CLI001,debito,785.27,Serviço em nuvem,assinatura
+36,2026-02-17,CLI003,debito,392.44,Serviço em nuvem,assinatura
+37,2026-01-06,CLI003,debito,294.01,Internet / TV,conta
+38,2026-03-10,CLI015,debito,563.41,Condomínio,conta
+39,2026-02-24,CLI015,debito,609.89,Condomínio,conta
+40,2026-01-20,CLI007,debito,109.29,Assinatura de revista,assinatura
+41,2026-01-16,CLI015,debito,559.76,Streaming de vídeo,assinatura
+42,2026-03-11,CLI004,credito,6737.01,Salário mensal,salario
+43,2026-02-17,CLI002,debito,506.77,Assinatura de revista,assinatura
+44,2026-02-21,CLI012,debito,460.29,Condomínio,conta
+45,2026-03-17,CLI002,credito,11982.33,Transferência de alto valor,transferencia
+92,15/02/2026,CLI004,debito,85.50,Data formato BR,compra
+93,2026-13-45,CLI005,credito,1200.00,Data inexistente,salario
+46,2026-04-13,CLI015,credito,11093.74,Salário mensal,salario
+47,2026-02-20,CLI004,debito,491.73,Internet / TV,conta
+48,2026-02-09,CLI009,debito,494.61,Eletrônicos,compra
+49,2026-04-14,CLI015,debito,358.33,Assinatura de revista,assinatura
+50,2026-04-03,CLI006,debito,730.75,Conta de água,conta
+51,2026-03-17,CLI005,debito,417.66,Loja de roupas,compra
+52,2026-04-14,CLI014,debito,313.08,Serviço em nuvem,assinatura
+53,2026-03-13,CLI014,debito,533.70,Eletrônicos,compra
+54,2026-01-13,CLI008,debito,673.62,Internet / TV,conta
+55,2026-02-13,CLI013,credito,8369.42,Adiantamento salarial,salario
+56,2026-02-16,CLI009,debito,466.13,Streaming de música,assinatura
+57,2026-01-29,CLI006,credito,7344.09,Adiantamento salarial,salario
+58,2026-01-26,CLI010,credito,2646.80,Pagamento de fornecedor,transferencia
+59,2026-03-28,CLI002,debito,435.61,Loja de roupas,compra
+60,2026-01-03,CLI008,debito,891.89,Transferência entre contas,transferencia
+61,2026-04-19,CLI003,debito,721.33,Streaming de vídeo,assinatura
+62,2026-01-14,CLI002,credito,8816.44,Pagamento de folha,salario
+63,2026-01-08,CLI014,debito,782.86,Streaming de música,assinatura
+64,2026-02-03,CLI002,debito,59.48,Eletrônicos,compra
+65,2026-01-03,CLI005,debito,38.99,Supermercado,compra
+94,2026-02-28,CLI006,pix,300.00,Tipo invalido,transferencia
+95,2026-03-10,CLI007,debito,invalid_val,Valor com texto,compra
+66,2026-02-16,CLI009,credito,8030.28,Bônus semestral,salario
+67,2026-02-18,CLI002,debito,429.38,Loja de roupas,compra
+68,2026-03-02,CLI012,debito,207.46,Assinatura de revista,assinatura
+69,2026-01-08,CLI010,debito,3808.89,Transferência Pix,transferencia
+70,2026-01-03,CLI001,credito,2296.46,Transferência entre contas,transferencia
+71,2026-01-13,CLI007,debito,457.82,Restaurante,compra
+72,2026-02-15,CLI003,credito,8898.69,Adiantamento salarial,salario
+73,2026-03-07,CLI007,debito,141.48,Livraria,compra
+74,2026-02-23,CLI003,credito,3136.65,Salário mensal,salario
+75,2026-02-20,CLI001,credito,17293.89,Transferência de alto valor,transferencia
+76,2026-03-29,CLI015,debito,727.89,Conta de água,conta
+77,2026-04-20,CLI007,debito,781.48,Streaming de música,assinatura
+78,2026-02-23,CLI005,debito,393.17,Streaming de vídeo,assinatura
+79,2026-03-09,CLI002,debito,654.41,Internet / TV,conta
+80,2026-03-05,CLI008,debito,601.06,Condomínio,conta
+96,2026-03-12,CLI008,debito,-150.00,Valor negativo,compra
+97,2026-03-22,CLI009,credito,0.00,Valor zerado,transferencia
+98,2026-04-02,,estorno,450.00,Múltiplos erros,compra
+81,2026-01-29,CLI008,credito,2450.05,Transferência Pix,transferencia
+82,2026-03-20,CLI003,credito,5685.87,Pagamento de folha,salario
+83,2026-02-16,CLI004,debito,218.99,Supermercado,compra
+84,2026-03-31,CLI010,debito,325.60,Conta de luz,conta
+85,2026-01-08,CLI006,credito,6679.88,Pagamento de folha,salario
+86,2026-03-17,CLI009,credito,7172.23,Bônus semestral,salario
+87,2026-01-16,CLI006,credito,8067.85,Pagamento de folha,salario
+88,2026-02-15,CLI013,debito,362.96,Gás residencial,conta
+89,2026-01-09,CLI002,credito,5335.26,Salário mensal,salario
+90,2026-02-20,CLI009,debito,113.35,Serviço em nuvem,assinatura
