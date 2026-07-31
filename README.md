@@ -53,6 +53,7 @@ Ao executar com sucesso todas as células do notebook, você terá as seguintes 
 ### Saídas no Terminal (Console da célula)
 
 - **Resumo da limpeza de dados:** Quantidade total de linhas lidas, linhas válidas e linhas ignoradas (inválidas).
+- **Período de Análise (Periodicidade):** Exibe um resumo detalhado contendo a data da transação mais antiga, a data da transação mais recente e o total de dias transcorridos entre elas.
 - **Relatório Financeiro Mensal:** Um extrato formatado para cada mês contendo:
   - Quantidade de transações
   - Total de Crédito e Total de Débito
@@ -64,7 +65,7 @@ Ao executar com sucesso todas as células do notebook, você terá as seguintes 
 ### Arquivos Exportados
 
 - `relatorio.json`: Um arquivo exportado contendo toda a estrutura de análise financeira e as métricas calculadas agrupadas em formato JSON, pronto para ser consumido por outras aplicações.
-- `grafico.png` *(Opcional / Gerado pelas implementações extras)*: Uma visualização gráfica desenvolvida com `matplotlib` ilustrando o saldo mensal, a evolução dos débitos ao longo do tempo ou as barras empilhadas de crédito/débito.
+- `grafico.png`: Fornece uma visualização gráfica desenvolvida com `matplotlib` ilustrando o saldo mensal, a evolução dos débitos ao longo do tempo, barras empilhadas de crédito/débito e a comparação percentual de gastos por categoria.
 
 ## Gráficos
 
