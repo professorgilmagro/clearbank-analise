@@ -97,4 +97,11 @@ O script `analise_pandas` gera um painel consolidado (`grafico.png`) contendo as
 - **Crédito vs Débito:** Gráfico de barras (empilhadas ou lado a lado) que compara o volume de entradas e saídas.
 - **Distribuição Percentual:** Gráfico que ilustra a proporção ou categorização das movimentações financeiras.
 
+## 4. Notas
+
+Estão inclusos dois formatos para a análise com Pandas:
+
+- `analise_pandas.py`: Fornecido para atender ao formato solicitado no enunciado do projeto.
+- `analise_pandas.ipynb`: Fornecido para facilitar a execução, análise interativa e visualização no Google Colab.
+
 ![Painel de Gráficos - Pandas](grafico.png)
