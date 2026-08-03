@@ -16,22 +16,7 @@ O projeto conta também com implementações  utilizando as bibliotecas `pandas`
 
 ### Fluxograma de Execução
 
-```mermaid
-flowchart TD
-    subgraph desafio_final [Etapa 1: desafio-final / Nativo]
-        A[transacoes.csv] --> B(Leitura e Validação de Dados)
-        B --> C(Cálculo de Métricas e Saldo Mensal)
-        C --> D(Detecção de Anomalias)
-        C --> E[Geração do relatorio.json]
-    end
-
-    subgraph analise_pandas [Etapa 2: analise_pandas / Pandas]
-        F[transacoes.csv] --> G(Limpeza e Processamento Pandas)
-        E -. Dependência .-> H{Comparação de Dados}
-        G --> H
-        H --> I(Geração de Dashboards e Gráficos)
-    end
-```
+![Fluxograma de Execução](fluxograma.svg)
 
 ---
 
