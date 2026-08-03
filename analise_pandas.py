@@ -96,6 +96,20 @@ def resumo_mensal():
       total_debito=('valor', lambda x: x[dados_validos.loc[x.index, 'tipo'] == 'debito'].sum())
   ).reset_index()
 
+# Crédito e débito por mês
+def credito_debito_por_mes():
+  melted_df = resumo_mensal().melt(
+      id_vars=['mes_ref'],
+      value_vars=['total_credito', 'total_debito'],
+      var_name='tipo_transacao',
+      value_name='valor_total'
+  )
+  melted_df['tipo_transacao'] = melted_df['tipo_transacao'].replace({
+    'total_credito': 'crédito',
+    'total_debito': 'débito'
+  })
+  return melted_df
+
 """## Comparação de dados com a versão nativa"""
 
 import json
@@ -188,10 +202,11 @@ plt.show()
 """
 
 plt.figure(figsize=(12, 6))
-sns.countplot(x='mes_ref', hue='tipo', data=dados_validos)
-plt.title('Crédito e Débito por Mês')
+sns.barplot(x='mes_ref', y='valor_total', hue='tipo_transacao', data=credito_debito_por_mes(), palette='viridis')
+plt.title('Valor Total de Crédito e Débito por Mês')
 plt.xlabel('Mês de Referência')
-plt.ylabel('Quantidade')
+plt.ylabel('Valor Total')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 
 """# Todos os gráficos na imagem"""
@@ -214,7 +229,7 @@ axes[0, 1].set_ylabel('Total de Débito')
 
 
 # Gráfico 3: Crédito e Débito por Mês
-sns.countplot(x='mes_ref', hue='tipo', data=dados_validos, ax=axes[1, 0], palette='pastel')
+sns.barplot(x='mes_ref', y='valor_total', hue='tipo_transacao', data=credito_debito_por_mes(),ax=axes[1, 0], palette='viridis')
 axes[1, 0].set_title('Crédito e Débito por Mês', fontweight='bold')
 axes[1, 0].set_xlabel('Mês de Referência')
 axes[1, 0].set_ylabel('Quantidade')
